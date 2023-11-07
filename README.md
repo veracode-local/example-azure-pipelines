@@ -1,5 +1,7 @@
 # [:] Using SourceClear via Azure Pipelines running Windows PowerShell
 
+Test Text
+
 1. Create a `azure-pipelines.yml` like [so](azure-pipelines.yml) for Azure Pipelines.
 1. On AzureDevOps. At your project. Go to `Pipelines` > `Builds` > `+ New` > `New build pipeline` to connect your repository to Azure Pipelines. You may be immediately prompted to add a new build pipeline if you have no existing pipelines.
 1. We'll [do this](azure-pipelines.yml#L18-L24) as the equivalent of [CI script](https://help.veracode.com/reader/hHHR3gv0wYc2WbCclECf_A/7ZR_aeLpy_J4q0YuRYmZdg) for Windows Powershell.
